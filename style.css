@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-porfolio {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.logo_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.link__contact a span:hover {
+  color: #069;
+}
+
+.col-7-scroll {
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
